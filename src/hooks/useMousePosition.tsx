@@ -6,8 +6,8 @@ const useMousePosition = () => {
     clientY: 0,
   });
 
-  const updatePosition = (event) => {
-    const { pageX, pageY, clientX, clientY } = event;
+  const updatePosition = (event: any) => {
+    const { clientX, clientY } = event;
 
     setPosition({
       clientX,

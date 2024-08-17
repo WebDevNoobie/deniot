@@ -286,118 +286,6 @@ const Section3 = ({
           />
           <p>Waldorf Astoria Residences</p>
         </div>
-        {/* <motion.img
-          src={background1}
-          alt=""
-          animate={{
-            transform: isInView1 ? "none" : "rotate(-3deg) translateX(-50px)",
-          }}
-          ref={ref1}
-        />
-        <motion.img
-          src={background2}
-          alt=""
-          animate={{
-            transform: isInView2 ? "none" : "rotate(-3deg) translateX(-50px)",
-          }}
-          ref={ref2}
-        />
-        <motion.img
-          src={background3}
-          alt=""
-          animate={{
-            transform: isInView3 ? "none" : "rotate(-3deg) translateX(-50px)",
-          }}
-          ref={ref3}
-        />
-        <motion.img
-          src={background4}
-          alt=""
-          animate={{
-            transform: isInView4 ? "none" : "rotate(-3deg) translateX(-50px)",
-          }}
-          ref={ref4}
-        />
-        <motion.img
-          src={background5}
-          alt=""
-          animate={{
-            transform: isInView5 ? "none" : "rotate(-3deg) translateX(-50px)",
-          }}
-          ref={ref5}
-        />
-        <motion.img
-          src={background6}
-          alt=""
-          animate={{
-            transform: isInView6 ? "none" : "rotate(-3deg) translateX(-50px)",
-          }}
-          ref={ref6}
-        />
-        <motion.img
-          src={background7}
-          alt=""
-          animate={{
-            transform: isInView7 ? "none" : "rotate(-3deg) translateX(-50px)",
-          }}
-          ref={ref7}
-        />
-        <motion.img
-          src={background8}
-          alt=""
-          animate={{
-            transform: isInView8 ? "none" : "rotate(-3deg) translateX(-50px)",
-          }}
-          ref={ref8}
-        />
-        <motion.img
-          src={background9}
-          alt=""
-          animate={{
-            transform: isInView9 ? "none" : "rotate(-3deg) translateX(-50px)",
-          }}
-          ref={ref9}
-        />
-        <motion.img
-          src={background10}
-          alt=""
-          animate={{
-            transform: isInView10 ? "none" : "rotate(-3deg) translateX(-50px)",
-          }}
-          ref={ref10}
-        />
-        <motion.img
-          src={background11}
-          alt=""
-          animate={{
-            transform: isInView11 ? "none" : "rotate(-3deg) translateX(-50px)",
-          }}
-          ref={ref11}
-        />
-        <motion.img
-          src={background12}
-          alt=""
-          animate={{
-            transform: isInView12 ? "none" : "rotate(-3deg) translateX(-50px)",
-          }}
-          ref={ref12}
-        />
-        <motion.img
-          src={background13}
-          alt=""
-          animate={{
-            transform: isInView13 ? "none" : "rotate(-3deg) translateX(-50px)",
-          }}
-          ref={ref13}
-        />
-        <motion.img
-          src={background14}
-          alt=""
-          animate={{
-            transform: isInView14 ? "none" : "rotate(-3deg) translateX(-50px)",
-          }}
-          ref={ref14}
-        /> */}
       </motion.div>
       <motion.div
         className="inner_lower_div"
@@ -406,118 +294,160 @@ const Section3 = ({
           x: x_axis_change_lower,
         }}
       >
-        <motion.img
-          src={background15}
-          alt=""
-          animate={{
-            transform: isInView15 ? "none" : "rotate(3deg) translateX(50px)",
-          }}
-          ref={ref15}
-        />
-        <motion.img
-          src={background16}
-          alt=""
-          animate={{
-            transform: isInView16 ? "none" : "rotate(3deg) translateX(50px)",
-          }}
-          ref={ref16}
-        />
-        <motion.img
-          src={background17}
-          alt=""
-          animate={{
-            transform: isInView17 ? "none" : "rotate(3deg) translateX(50px)",
-          }}
-          ref={ref17}
-        />
-        <motion.img
-          src={background18}
-          alt=""
-          animate={{
-            transform: isInView18 ? "none" : "rotate(3deg) translateX(50px)",
-          }}
-          ref={ref18}
-        />
-        <motion.img
-          src={background19}
-          alt=""
-          animate={{
-            transform: isInView19 ? "none" : "rotate(3deg) translateX(50px)",
-          }}
-          ref={ref19}
-        />
-        <motion.img
-          src={background20}
-          alt=""
-          animate={{
-            transform: isInView20 ? "none" : "rotate(3deg) translateX(50px)",
-          }}
-          ref={ref20}
-        />
-        <motion.img
-          src={background21}
-          alt=""
-          animate={{
-            transform: isInView21 ? "none" : "rotate(3deg) translateX(50px)",
-          }}
-          ref={ref21}
-        />
-        <motion.img
-          src={background22}
-          alt=""
-          animate={{
-            transform: isInView22 ? "none" : "rotate(3deg) translateX(50px)",
-          }}
-          ref={ref22}
-        />
-        <motion.img
-          src={background23}
-          alt=""
-          animate={{
-            transform: isInView23 ? "none" : "rotate(3deg) translateX(50px)",
-          }}
-          ref={ref23}
-        />
-        <motion.img
-          src={background24}
-          alt=""
-          animate={{
-            transform: isInView24 ? "none" : "rotate(3deg) translateX(50px)",
-          }}
-          ref={ref24}
-        />
-        <motion.img
-          src={background25}
-          alt=""
-          animate={{
-            transform: isInView25 ? "none" : "rotate(3deg) translateX(50px)",
-          }}
-          ref={ref25}
-        />
-        <motion.img
-          src={background26}
-          alt=""
-          animate={{
-            transform: isInView26 ? "none" : "rotate(3deg) translateX(50px)",
-          }}
-          ref={ref26}
-        />
-        <motion.img
-          src={background27}
-          alt=""
-          animate={{
-            transform: isInView27 ? "none" : "rotate(3deg) translateX(50px)",
-          }}
-          ref={ref27}
-        />
-        <motion.img
-          src={background28}
-          alt=""
-          animate={{
-            transform: isInView28 ? "none" : "rotate(3deg) translateX(50px)",
-          }}
-          ref={ref28}
-        />
+        <div className="div">
+          <motion.img
+            src={background15}
+            alt=""
+            animate={{
+              transform: isInView15 ? "none" : "rotate(3deg) translateX(50px)",
+            }}
+            ref={ref15}
+          />
+          <p>Waldorf Astoria Residences</p>
+        </div>
+        <div className="div">
+          <motion.img
+            src={background16}
+            alt=""
+            animate={{
+              transform: isInView16 ? "none" : "rotate(3deg) translateX(50px)",
+            }}
+            ref={ref16}
+          />
+          <p>Waldorf Astoria Residences</p>
+        </div>
+        <div className="div">
+          <motion.img
+            src={background17}
+            alt=""
+            animate={{
+              transform: isInView17 ? "none" : "rotate(3deg) translateX(50px)",
+            }}
+            ref={ref17}
+          />
+          <p>Waldorf Astoria Residences</p>
+        </div>
+        <div className="div">
+          <motion.img
+            src={background18}
+            alt=""
+            animate={{
+              transform: isInView18 ? "none" : "rotate(3deg) translateX(50px)",
+            }}
+            ref={ref18}
+          />
+          <p>Waldorf Astoria Residences</p>
+        </div>
+        <div className="div">
+          <motion.img
+            src={background19}
+            alt=""
+            animate={{
+              transform: isInView19 ? "none" : "rotate(3deg) translateX(50px)",
+            }}
+            ref={ref19}
+          />
+          <p>Waldorf Astoria Residences</p>
+        </div>
+        <div className="div">
+          <motion.img
+            src={background20}
+            alt=""
+            animate={{
+              transform: isInView20 ? "none" : "rotate(3deg) translateX(50px)",
+            }}
+            ref={ref20}
+          />
+          <p>Waldorf Astoria Residences</p>
+        </div>
+        <div className="div">
+          <motion.img
+            src={background21}
+            alt=""
+            animate={{
+              transform: isInView21 ? "none" : "rotate(3deg) translateX(50px)",
+            }}
+            ref={ref21}
+          />
+          <p>Waldorf Astoria Residences</p>
+        </div>
+        <div className="div">
+          <motion.img
+            src={background22}
+            alt=""
+            animate={{
+              transform: isInView22 ? "none" : "rotate(3deg) translateX(50px)",
+            }}
+            ref={ref22}
+          />
+          <p>Waldorf Astoria Residences</p>
+        </div>
+        <div className="div">
+          <motion.img
+            src={background23}
+            alt=""
+            animate={{
+              transform: isInView23 ? "none" : "rotate(3deg) translateX(50px)",
+            }}
+            ref={ref23}
+          />
+          <p>Waldorf Astoria Residences</p>
+        </div>
+        <div className="div">
+          <motion.img
+            src={background24}
+            alt=""
+            animate={{
+              transform: isInView24 ? "none" : "rotate(3deg) translateX(50px)",
+            }}
+            ref={ref24}
+          />
+          <p>Waldorf Astoria Residences</p>
+        </div>
+        <div className="div">
+          <motion.img
+            src={background25}
+            alt=""
+            animate={{
+              transform: isInView25 ? "none" : "rotate(3deg) translateX(50px)",
+            }}
+            ref={ref25}
+          />
+          <p>Waldorf Astoria Residences</p>
+        </div>
+        <div className="div">
+          <motion.img
+            src={background26}
+            alt=""
+            animate={{
+              transform: isInView26 ? "none" : "rotate(3deg) translateX(50px)",
+            }}
+            ref={ref26}
+          />
+          <p>Waldorf Astoria Residences</p>
+        </div>
+        <div className="div">
+          <motion.img
+            src={background27}
+            alt=""
+            animate={{
+              transform: isInView27 ? "none" : "rotate(3deg) translateX(50px)",
+            }}
+            ref={ref27}
+          />
+          <p>Waldorf Astoria Residences</p>
+        </div>
+        <div className="div">
+          <motion.img
+            src={background28}
+            alt=""
+            animate={{
+              transform: isInView28 ? "none" : "rotate(3deg) translateX(50px)",
+            }}
+            ref={ref28}
+          />
+          <p>Waldorf Astoria Residences</p>
+        </div>
       </motion.div>
     </motion.div>
   );
