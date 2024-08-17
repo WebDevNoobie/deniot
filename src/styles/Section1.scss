@@ -1,0 +1,48 @@
+.s1_main_div {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  .content_div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+    .growing_content_div {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+
+      img {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: absolute;
+        z-index: 0;
+      }
+
+      p {
+        z-index: 3;
+        font-size: 60px;
+        position: absolute;
+        width: 750px;
+        text-align: center;
+        color: white;
+      }
+    }
+
+    p {
+      z-index: 2;
+      font-size: 60px;
+      width: 750px;
+      text-align: center;
+    }
+  }
+}

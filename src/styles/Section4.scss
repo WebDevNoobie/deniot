@@ -1,0 +1,54 @@
+.s4_main_div {
+  width: 100vw;
+  position: absolute;
+  top: 685vh;
+  left: 0;
+  flex-direction: column;
+
+  .heading_div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    p {
+      position: sticky;
+      top: 50%;
+      font-size: 50px;
+    }
+  }
+
+  .list_cities_div {
+    width: 100vw;
+    height: 135vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 50%;
+    overflow: hidden;
+
+    .city_div {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      text-wrap: nowrap;
+
+      img {
+        position: absolute;
+        visibility: hidden;
+      }
+
+      p {
+        color: white;
+        font-weight: 500;
+      }
+
+      &:hover {
+        img {
+          visibility: visible;
+        }
+      }
+    }
+  }
+}

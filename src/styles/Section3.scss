@@ -1,0 +1,58 @@
+.s3_main_div {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  gap: 50px;
+  overflow-x: clip;
+
+  .inner_upper_div {
+    position: absolute;
+    display: flex;
+    gap: 25px;
+
+    div {
+      width: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+
+      img {
+        width: 100%;
+      }
+
+      p {
+        width: 100%;
+        visibility: hidden;
+        color: white;
+        font-size: 40px;
+        background-color: rgba(109, 109, 109, 0.6);
+        position: absolute;
+      }
+
+      &:hover {
+        p {
+          visibility: visible;
+        }
+      }
+    }
+
+    // img {
+    //   width: 250px;
+    // }
+  }
+
+  .inner_lower_div {
+    position: absolute;
+    display: flex;
+    gap: 25px;
+
+    img {
+      width: 250px;
+    }
+  }
+}

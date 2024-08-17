@@ -1,0 +1,13 @@
+div {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 10px;
+  pointer-events: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s ease;
+  transition-property: transform;
+  transform-origin: 150% 150%;
+  z-index: 999;
+}
